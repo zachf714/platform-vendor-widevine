@@ -16,4 +16,6 @@
 PRODUCT_PACKAGES := \
     libdrmdecrypt \
     libwvdrm_L1 \
-    libWVStreamControlAPI_L1
+    libWVStreamControlAPI_L1 \
+    libwvm \
+    libdrmwvmplugin
