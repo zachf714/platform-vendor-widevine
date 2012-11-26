@@ -14,5 +14,8 @@
 
 LOCAL_PATH := vendor/widevine/maguro
 
+PRODUCT_PACKAGES := \
+    libdrmdecrypt
+
 # Imgtec blob(s) necessary for Maguro hardware
 $(call inherit-product, vendor/widevine/tuna/device-tuna.mk)
