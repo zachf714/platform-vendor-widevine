@@ -15,7 +15,9 @@
 # Widevine blob(s) necessary for Grouper hardware
 PRODUCT_PACKAGES := \
     libdrmdecrypt \
+    libwvdrm_L1 \
     libwvdrm_L3 \
+    libWVStreamControlAPI_L1 \
     libWVStreamControlAPI_L3 \
     libwvm \
     libdrmwvmplugin
